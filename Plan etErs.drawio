@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-18T08:52:31.331Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="x2xpHj5AFq5E-wQg3UH5" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-18T09:12:58.809Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="SWSpEr9CUmuGX3jqBP_N" version="24.0.7" type="github">
   <diagram name="페이지-1" id="4t7fibF1LyRJ7PB56Ef2">
     <mxGraphModel dx="2049" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,59 +8,136 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="R08J2aAFIvRt77ZNCV5v-1" value="게임 시작" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="25" y="10" width="100" height="60" as="geometry" />
+          <mxGeometry x="155" y="10" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="R08J2aAFIvRt77ZNCV5v-8" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R08J2aAFIvRt77ZNCV5v-2" target="R08J2aAFIvRt77ZNCV5v-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="R08J2aAFIvRt77ZNCV5v-15" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="R08J2aAFIvRt77ZNCV5v-3" target="R08J2aAFIvRt77ZNCV5v-14">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="150" y="330.0344827586207" as="sourcePoint" />
+            <mxPoint x="280" y="370.0344827586207" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="180" y="295" />
-              <mxPoint x="180" y="295" />
+              <mxPoint x="310" y="335" />
+              <mxPoint x="310" y="335" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="R08J2aAFIvRt77ZNCV5v-2" value="함선 건설 장소&amp;nbsp;&lt;div&gt;해금되었는가&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="10" y="110" width="130" height="100" as="geometry" />
+          <mxGeometry x="140" y="150" width="130" height="100" as="geometry" />
         </mxCell>
         <mxCell id="R08J2aAFIvRt77ZNCV5v-7" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R08J2aAFIvRt77ZNCV5v-3" target="R08J2aAFIvRt77ZNCV5v-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="R08J2aAFIvRt77ZNCV5v-3" value="함선 내부가 물로&amp;nbsp;&lt;div&gt;가득 차있는가&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="10" y="250" width="130" height="90" as="geometry" />
+          <mxGeometry x="140" y="290" width="130" height="90" as="geometry" />
         </mxCell>
         <mxCell id="R08J2aAFIvRt77ZNCV5v-6" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R08J2aAFIvRt77ZNCV5v-4" target="R08J2aAFIvRt77ZNCV5v-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="R08J2aAFIvRt77ZNCV5v-4" value="혈구를 배치하였는가" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="10" y="410" width="130" height="90" as="geometry" />
+          <mxGeometry x="140" y="450" width="130" height="90" as="geometry" />
         </mxCell>
         <mxCell id="R08J2aAFIvRt77ZNCV5v-11" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R08J2aAFIvRt77ZNCV5v-5" target="R08J2aAFIvRt77ZNCV5v-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="R08J2aAFIvRt77ZNCV5v-5" value="배합법에 따라&lt;div&gt;자재가 배합되었는가&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="10" y="560" width="130" height="100" as="geometry" />
+          <mxGeometry x="140" y="600" width="130" height="100" as="geometry" />
         </mxCell>
         <mxCell id="R08J2aAFIvRt77ZNCV5v-10" value="함선 건설" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="25" y="730" width="100" height="70" as="geometry" />
+          <mxGeometry x="155" y="770" width="100" height="70" as="geometry" />
         </mxCell>
         <mxCell id="R08J2aAFIvRt77ZNCV5v-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="R08J2aAFIvRt77ZNCV5v-14">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="262" y="390" as="sourcePoint" />
-            <mxPoint x="90" y="380" as="targetPoint" />
+            <mxPoint x="392" y="430" as="sourcePoint" />
+            <mxPoint x="220" y="420" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="260" y="380" />
-              <mxPoint x="100" y="380" />
+              <mxPoint x="390" y="420" />
+              <mxPoint x="230" y="420" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="R08J2aAFIvRt77ZNCV5v-14" value="혈구 보내서 작업" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="210" y="252.5" width="100" height="85" as="geometry" />
+          <mxGeometry x="340" y="292.5" width="100" height="85" as="geometry" />
         </mxCell>
         <mxCell id="R08J2aAFIvRt77ZNCV5v-18" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="390" width="50" height="100" as="geometry" />
+          <mxGeometry x="90" y="155" width="50" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="R08J2aAFIvRt77ZNCV5v-23" value="함선 건설" style="ellipse;whiteSpace=wrap;html=1;align=center;strokeWidth=2;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="462.5" width="80" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="R08J2aAFIvRt77ZNCV5v-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="R08J2aAFIvRt77ZNCV5v-42" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="205" y="1370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R08J2aAFIvRt77ZNCV5v-42" value="게임 시작" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="155" y="1200" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R08J2aAFIvRt77ZNCV5v-55" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="1380" width="50" height="675" as="geometry" />
+        </mxCell>
+        <mxCell id="R08J2aAFIvRt77ZNCV5v-56" value="재료 획득" style="ellipse;whiteSpace=wrap;html=1;align=center;strokeWidth=2;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="1682.5" width="80" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="R08J2aAFIvRt77ZNCV5v-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R08J2aAFIvRt77ZNCV5v-57" target="R08J2aAFIvRt77ZNCV5v-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R08J2aAFIvRt77ZNCV5v-57" value="혈구 탐사 진행" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="155" y="1375" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="R08J2aAFIvRt77ZNCV5v-58" value="혈구의 특성/도구에&amp;nbsp;&lt;div&gt;따라 다른 원료 획득&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="145" y="1490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R08J2aAFIvRt77ZNCV5v-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="R08J2aAFIvRt77ZNCV5v-58" target="R08J2aAFIvRt77ZNCV5v-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R08J2aAFIvRt77ZNCV5v-61" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1380" width="50" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="R08J2aAFIvRt77ZNCV5v-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R08J2aAFIvRt77ZNCV5v-62" target="R08J2aAFIvRt77ZNCV5v-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R08J2aAFIvRt77ZNCV5v-62" value="원료" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1420" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="R08J2aAFIvRt77ZNCV5v-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R08J2aAFIvRt77ZNCV5v-63" target="R08J2aAFIvRt77ZNCV5v-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R08J2aAFIvRt77ZNCV5v-63" value="원료 분해할 함선 선택" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1560" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="R08J2aAFIvRt77ZNCV5v-65" value="함선에 따라 원료에서 얻는 재료가 다름" style="rounded=1;whiteSpace=wrap;html=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1682.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R08J2aAFIvRt77ZNCV5v-67" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1570" width="50" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="R08J2aAFIvRt77ZNCV5v-68" value="자재" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="700" y="1847.5" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="R08J2aAFIvRt77ZNCV5v-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R08J2aAFIvRt77ZNCV5v-69" target="R08J2aAFIvRt77ZNCV5v-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R08J2aAFIvRt77ZNCV5v-69" value="랩 - 가공 회로 에&lt;div&gt;재료 투입&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1747.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R08J2aAFIvRt77ZNCV5v-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R08J2aAFIvRt77ZNCV5v-71" target="R08J2aAFIvRt77ZNCV5v-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R08J2aAFIvRt77ZNCV5v-71" value="재료에 진행할&lt;div&gt;작업 선택&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1857.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R08J2aAFIvRt77ZNCV5v-73" value="회로에서 완성된&lt;div&gt;건축 자재 수거&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1962.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R08J2aAFIvRt77ZNCV5v-75" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="650" y="1755.5" width="50" height="264" as="geometry" />
+        </mxCell>
+        <mxCell id="R08J2aAFIvRt77ZNCV5v-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R08J2aAFIvRt77ZNCV5v-77" target="R08J2aAFIvRt77ZNCV5v-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R08J2aAFIvRt77ZNCV5v-77" value="재료" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="530" y="1610" width="100" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
