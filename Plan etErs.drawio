@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-18T09:56:09.639Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="PJhWm9uaOJ6VAWuGCr9T" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-18T10:00:03.979Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="cnw8uGnqma6A44ddYY_M" version="24.0.7" type="github">
   <diagram name="페이지-1" id="4t7fibF1LyRJ7PB56Ef2">
-    <mxGraphModel dx="574" dy="316" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1195" dy="658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -190,10 +190,7 @@
           <mxGeometry y="50" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="R08J2aAFIvRt77ZNCV5v-141" value="" style="rounded=1;absoluteArcSize=1;html=1;arcSize=10;" vertex="1" parent="1">
-          <mxGeometry x="30" y="2562" width="360" height="360" as="geometry" />
-        </mxCell>
-        <mxCell id="R08J2aAFIvRt77ZNCV5v-149" value="" style="rounded=1;absoluteArcSize=1;html=1;arcSize=10;whiteSpace=wrap;points=[];strokeColor=inherit;fillColor=inherit;" vertex="1" parent="R08J2aAFIvRt77ZNCV5v-141">
-          <mxGeometry x="80" y="185" width="275" height="160" as="geometry" />
+          <mxGeometry x="30" y="2562" width="360" height="428" as="geometry" />
         </mxCell>
         <mxCell id="R08J2aAFIvRt77ZNCV5v-142" value="&lt;span style=&quot;background-color: initial;&quot;&gt;랩&lt;/span&gt;" style="html=1;shape=mxgraph.er.anchor;whiteSpace=wrap;" vertex="1" parent="R08J2aAFIvRt77ZNCV5v-141">
           <mxGeometry x="-0.0005263157894717096" y="-20" width="47.368421052631575" height="81.81818181818183" as="geometry" />
@@ -204,20 +201,25 @@
         <mxCell id="R08J2aAFIvRt77ZNCV5v-147" value="&lt;span style=&quot;background-color: initial;&quot;&gt;뼈&lt;/span&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26lt%3Bspan%20style%3D%26quot%3Bbackground-color%3A%20initial%3B%26quot%3B%26gt%3B%EB%9E%A9%26lt%3B%2Fspan%26gt%3B%22%20style%3D%22html%3D1%3Bshape%3Dmxgraph.er.anchor%3BwhiteSpace%3Dwrap%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%2240%22%20y%3D%222560%22%20width%3D%22100%22%20height%3D%22100%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="html=1;shape=mxgraph.er.anchor;whiteSpace=wrap;" vertex="1" parent="R08J2aAFIvRt77ZNCV5v-141">
           <mxGeometry x="79.99684210526317" y="19.995454545454546" width="47.368421052631575" height="81.81818181818183" as="geometry" />
         </mxCell>
-        <mxCell id="R08J2aAFIvRt77ZNCV5v-148" value="관절" style="html=1;shape=mxgraph.er.anchor;whiteSpace=wrap;" vertex="1" parent="R08J2aAFIvRt77ZNCV5v-141">
-          <mxGeometry x="79.99684210526317" y="186.82272727272726" width="47.368421052631575" height="81.81818181818183" as="geometry" />
-        </mxCell>
         <mxCell id="R08J2aAFIvRt77ZNCV5v-150" value="함선" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="R08J2aAFIvRt77ZNCV5v-141">
-          <mxGeometry x="150" y="200.23" width="200" height="133.18" as="geometry" />
+          <mxGeometry x="150" y="268" width="200" height="133.18" as="geometry" />
         </mxCell>
         <mxCell id="R08J2aAFIvRt77ZNCV5v-151" value="+해금 여부&lt;div&gt;+잠수 여부&lt;/div&gt;&lt;div&gt;+혈구 배치 여부&lt;/div&gt;&lt;div&gt;+손상 여부&lt;/div&gt;&lt;div&gt;+&amp;nbsp;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="R08J2aAFIvRt77ZNCV5v-150">
           <mxGeometry y="50" width="200" height="83.18" as="geometry" />
         </mxCell>
-        <mxCell id="R08J2aAFIvRt77ZNCV5v-166" value="작업" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.209;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="R08J2aAFIvRt77ZNCV5v-80" target="R08J2aAFIvRt77ZNCV5v-150">
+        <mxCell id="R08J2aAFIvRt77ZNCV5v-171" value="관절" style="swimlane;" vertex="1" parent="R08J2aAFIvRt77ZNCV5v-141">
+          <mxGeometry x="80" y="198" width="275" height="210" as="geometry">
+            <mxRectangle x="80" y="198" width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R08J2aAFIvRt77ZNCV5v-174" value="&lt;font style=&quot;font-size: 12px; font-weight: normal;&quot;&gt;+ 엑손(함선)&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=left;" vertex="1" parent="R08J2aAFIvRt77ZNCV5v-171">
+          <mxGeometry x="10" y="20" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="R08J2aAFIvRt77ZNCV5v-166" value="작업" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.004;entryY=0.212;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="R08J2aAFIvRt77ZNCV5v-80" target="R08J2aAFIvRt77ZNCV5v-150">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="560" y="2600" as="targetPoint" />
+            <mxPoint x="350" y="2840" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="560" y="2790" />
+              <mxPoint x="560" y="2858" />
             </Array>
           </mxGeometry>
         </mxCell>
